@@ -77,6 +77,22 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <section>
+            <div>
+                <h2 class="bonus-class">যেভাবে <span class="span"> JavaScript </span>কাজ করে</h2>
+                <p class="bonus-answer">JavaScript হচ্ছে high-level interpreted programming language. এটাকে client-side scripting programming language ও বলা হয়। যখন client অর্থাৎ user তার browser এ JavaScript code run করে, তখন এই code টি run হয় মূলত browser এর মধ্যে থাকা একটি engine দ্বারা। যেমন chrome brower এ V8 নামে একটি engine আছে। JavaScript code execute হয় কিন্তু একটা লাইন তারপর আরেকটা লাইন এভাবে। সম্পূর্ণ কোড একই সাথে execute হয় না। brower engine ঐ source code কে কয়েকটি ধাপে প্রক্রিয়ার মাধ্যমে machine code এ রূপান্তর করে।  </p>
+                
+
+            </div>
+
+            <div>
+                <h2 class="bonus-class">যেভাবে <span class="span"> Event loop </span>কাজ করে</h2>
+                <p class="bonus-answer">যেহেতু JavaScript একটি single-threaded programming language অর্থাৎ JavaScript একই সময়ে একটি মাত্র কাজ করতে পারে। আমরা জানি, browser এ JavaScript code run করার জন্য একটি engine আছে যেমন- google chrome browser এ V8 engine আছে। ঐ engine টার মধ্যে ২টি জিনিস থাকে। একাটি হচ্ছে Heap আরেকটা হচ্ছে Call Stack. JavaScript এর মধ্যে কোনো Function কে যখন call  করা হয়, তখন এই Call Stack টি ঐ Function গুলো কে এর মধ্যে Stack আকারে রাখে। আমরা জানি, JavaScript, synchronous ও asynchronous দুভাবেই কাজ করে। JavaScript মূলত synchronous Function কে বেশি গুরুত্ব দেয়। তাই  synchronous Function execute করে এবং asynchronous Function কে একটি callback queue এর মধ্যে রেখে দেয়। পরবর্তীতে synchronous Function execute করার জন্য ঐ Call Stack ও callback queue যেটির মাধ্যমে যোগাযোগ করে, সেটিই হচ্ছে Event loop.
+                </p>
+                
+
+            </div>
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->

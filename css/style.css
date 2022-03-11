@@ -256,3 +256,15 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+.bonus-class{
+  text-align: center;
+}
+ .bonus-answer{
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: x-large;
+   
+ }
+ .span{
+   color: rgb(187, 48, 6);
+ }
