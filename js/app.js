@@ -50,6 +50,7 @@ const switchTab = (id) => {
         document.getElementById( "reported" ).style.display = "none";
         document.getElementById( "posts" ).style.display = "grid";
         document.getElementById( "liked" ).style.display = "none";
+        document.getElementById('bonus-section').style.display = "block";
 
         
     }
